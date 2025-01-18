@@ -1,1 +1,6 @@
-This is the test.
+# Profession distribution (bar chart)
+plt.bar(df["Profession"].value_counts().index, df["Profession"].value_counts().values)
+plt.xlabel("Profession")
+plt.ylabel("Number of People")
+plt.title("Profession Distribution")
+plt.show()
