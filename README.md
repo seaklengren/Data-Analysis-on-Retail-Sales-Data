@@ -20,3 +20,7 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/2aaff14d-b2ed-49ef-a2e0-12e2e2a577bc)
 
 [Link text](https://example.com)
+
+# Learning Resources
+- [Google Doc: Python Basics](https://docs.google.com/...)
+- [Notebook: Data Analysis Guide](https://docs.google.com/...)
