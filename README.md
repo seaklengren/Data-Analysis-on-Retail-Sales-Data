@@ -17,3 +17,4 @@ plt.ylabel("Number of People")
 plt.title("Profession Distribution")
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/2aaff14d-b2ed-49ef-a2e0-12e2e2a577bc)
