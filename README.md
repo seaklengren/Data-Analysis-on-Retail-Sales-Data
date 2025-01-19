@@ -4,3 +4,8 @@ plt.xlabel("Profession")
 plt.ylabel("Number of People")
 plt.title("Profession Distribution")
 plt.show()
+
+```python
+def hello_world():
+    print("Hello, world!")
+```
