@@ -1,6 +1,0 @@
-### Bar Chart
-plt.bar(x,y, color="green") vertical bars
-plt.barh() horizontal bars
-sns.barplot(x='Category', y='Values', data=data)
-data.plot(kind="bar")
-ptl.xticks(rotation=ankle)
