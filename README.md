@@ -21,19 +21,24 @@ Figure 1: Figure 1 Sale Price Distribution Across Different Country
 
 ![alt text](image-1.png)
 
+
 Figure 2  Pirce distribution by Different Stockcode
 
 ![alt text](image-2.png)
+
 
 Figure 3 Top 5 SockCode by its quantities
 
 ![alt text](image-3.png)
 
+
 Figure 4 Top 10 Most Frequent Customers
 
 ![alt text](image-4.png)
 
+
 Figure 5 Frequency Transactions
+
 
 ![alt text](image-5.png)
 
