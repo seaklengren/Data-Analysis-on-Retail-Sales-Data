@@ -40,65 +40,83 @@ The dataset used for this analysis is **Online Retail II**, which contains trans
 ---
 
 ## **4. Exploratory Data Analysis (EDA)**  
+
 ### **Descriptive Statistics**  
 - Used `df.describe()` to generate summary statistics.  
 
 ### **Key Insights from EDA**  
+
 1. **Sales Distribution Across Countries**  
-   - Identified the top-performing countries based on total sales.  
+   - Identified the **top-performing countries** based on total sales.  
+
 2. **Price Distribution by Stock Code**  
-   - Analyzed price variations across different product categories.  
+   - Analyzed **price variations** across different product categories.  
+
 3. **Top-Selling Products**  
    - Identified the **top 5 stock codes** by quantity sold.  
+
 4. **Customer Frequency Analysis**  
    - Determined the **top 10 most frequent customers** based on transaction counts.  
+
 5. **Transaction Frequency Trends**  
-   - Analyzed transaction patterns over time.  
+   - Analyzed **transaction patterns over time**.  
 
 ---
 
 ## **5. Feature Engineering**  
-### **New Variables Created**  
-1. **Total Sales Calculation**  
+
+### **New Feathers**  
+
+**Total Sales and Average Sale per Transaction**  
    ```python
    df['Total Sales'] = df['Quantity'] * df['Price']
+   df['Avg Sale per Transaction'] = df['Total Sales'] / df['Quantity']
 
 ---  
 
-## **6.  Advanced Analytics**  
-### **Investigated the relationship between Quantity and Price**  
+## **6. Advanced Analytics**  
+
+### **Investigating the Relationship Between Quantity and Price**  
+
+The correlation matrix between **Quantity** and **Price**:  
+
+```plaintext
             Quantity     Price
 Quantity    1.000000  -0.001941
 Price      -0.001941   1.000000
 
----
-
-**7.  Keys Insights**
-Top Countries by Sales: Belgium, Channel Islands, Australia, Austria, and Cyprus (See Figure 1).
-Top Stock Codes by Price: 10002, 11001, 10135, 10133, and 10125 (See Figure 2).
-Most Popular Product: StockCode 10002 had the highest quantity sold (See Figure 3).
-Top Customers: Customer ID 14911 accounted for 18.8% of the top 10 customers, followed by ID 17841 (16.5%) (See Figure 4).
-Most Popular Price Points: Products priced at $1.25 and $0.85 were the most frequently purchased (See Figure 5).
-No Clear Price-Quantity Relationship: There is no strong correlation between price and quantity (See Figure 6).
 
 ---
-**8.  Recommendations**
-Expand Marketing in High-Sales Countries
 
-Focus marketing efforts on Belgium, Channel Islands, Australia, Austria, and Cyprus to increase market share and revenue.
-Ensure Stock Availability for High-Demand Products
+## **7. Key Insights**  
 
-StockCode 10002 is the best-selling product. Ensure adequate inventory to meet demand and avoid stockouts.
-Price Optimization Strategy
+- **Top Countries by Sales:** Belgium, Channel Islands, Australia, Austria, and Cyprus (See Figure 1).  
+- **Top Stock Codes by Price:** 10002, 11001, 10135, 10133, and 10125 (See Figure 2).  
+- **Most Popular Product:** StockCode **10002** had the highest quantity sold (See Figure 3).  
+- **Top Customers:** Customer **ID 14911** accounted for **18.8% of the top 10 customers**, followed by **ID 17841 (16.5%)** (See Figure 4).  
+- **Most Popular Price Points:** Products priced at **$1.25 and $0.85** were the most frequently purchased (See Figure 5).  
+- **No Clear Price-Quantity Relationship:** There is no strong correlation between **price and quantity** (See Figure 6).  
 
-The most popular products are priced at $1.25 and $0.85. Introduce more products within this price range to cater to customer affordability.
-Avoid excessive stocking of high-priced items, as they may not sell as well.
-Customer Loyalty Program
+---
+##**8.  Recommendations**
+## **8. Recommendations**  
 
-Customer ID 14911 contributes significantly to sales. Implement loyalty programs, exclusive offers, or personalized discounts to retain high-value customers.
-Test Different Pricing Strategies
+### **1. Expand Marketing in High-Sales Countries**  
+- Focus marketing efforts on **Belgium, Channel Islands, Australia, Austria, and Cyprus** to increase market share and revenue.  
 
-Although no strong correlation exists between price and quantity, experimenting with discounts, bundling, or seasonal pricing strategies may uncover hidden sales opportunities.
+### **2. Ensure Stock Availability for High-Demand Products**  
+- **StockCode 10002** is the best-selling product. Ensure adequate inventory to meet demand and avoid stockouts.  
+
+### **3. Price Optimization Strategy**  
+- The most popular products are priced at **$1.25 and $0.85**. Introduce more products within this price range to cater to customer affordability.  
+- Avoid excessive stocking of **high-priced** items, as they may not sell as well.  
+
+### **4. Customer Loyalty Program**  
+- **Customer ID 14911** contributes significantly to sales. Implement **loyalty programs, exclusive offers, or personalized discounts** to retain high-value customers.  
+
+### **5. Test Different Pricing Strategies**  
+- Although no strong correlation exists between price and quantity, experimenting with **discounts, bundling, or seasonal pricing strategies** may uncover hidden sales opportunities.  
+
 ---
 ## 9. Appendix**
 
