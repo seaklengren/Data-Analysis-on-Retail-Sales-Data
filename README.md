@@ -67,24 +67,15 @@ The dataset used for this analysis is **Online Retail II**, which contains trans
 
 ### **New Feathers**  
 
-**Total Sales and Average Sale per Transaction**  
-   ```python
-   df['Total Sales'] = df['Quantity'] * df['Price']
-   df['Avg Sale per Transaction'] = df['Total Sales'] / df['Quantity']
+Total Sales
+Average Sale per Transaction 
 
----  
+
+ 
 
 ## **6. Advanced Analytics**  
 
 ### **Investigating the Relationship Between Quantity and Price**  
-
-The correlation matrix between **Quantity** and **Price**:  
-
-```plaintext
-            Quantity     Price
-Quantity    1.000000  -0.001941
-Price      -0.001941   1.000000
-
 
 ---
 
