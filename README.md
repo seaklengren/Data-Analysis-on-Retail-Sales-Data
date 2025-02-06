@@ -86,7 +86,7 @@ The dataset used for this analysis is **Online Retail II**, which contains trans
   
 ---
 
-##**8.  Recommendations**
+## **8. Recommendations**  
 
 ### **1. Expand Marketing in High-Sales Countries**  
 - Focus marketing efforts on **Belgium, Channel Islands, Australia, Austria, and Cyprus** to increase market share and revenue.  
