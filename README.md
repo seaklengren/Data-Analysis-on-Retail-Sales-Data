@@ -65,17 +65,16 @@ The dataset used for this analysis is **Online Retail II**, which contains trans
 
 ## **5. Feature Engineering**  
 
-### **New Feathers**  
-
-Total Sales
-Average Sale per Transaction 
-
+**Total Sales and Average Sale per Transaction** are new columns that were created:  
 
  
 
 ## **6. Advanced Analytics**  
 
-### **Investigating the Relationship Between Quantity and Price**  
+### **Investigating the Relationship Between Quantity and Price** 
+
+df['Total Sales'] = df['Quantity'] * df['Price']
+df['Avg Sale per Transaction'] = df['Total Sales'] / df['Quantity']
 
 ---
 
