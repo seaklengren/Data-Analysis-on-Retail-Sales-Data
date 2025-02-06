@@ -14,32 +14,29 @@ The analysis indicates that the top countries with the most sales are Belgium, f
 
 ●	While there is no direct correlation between price and quantity, it’s still valuable to test different pricing strategies and monitor their impact on sales performance to uncover potential opportunities for optimization.
 
-# 3. Appendix
-![alt text](image.png)
+## 3. Appendix
 
-Figure 1: Figure 1 Sale Price Distribution Across Different Country
+### Sale Price Distribution Across Different Countries
+![Sale Price Distribution](image.png)  
+**Figure 1:** Sale Price Distribution Across Different Countries  
 
-![alt text](image-1.png)
+### Price Distribution by Different Stock Codes
+![Price Distribution by Stock Code](image-1.png)  
+**Figure 2:** Price Distribution by Different Stock Codes  
 
+### Top 5 Stock Codes by Quantity Sold
+![Top 5 Stock Codes](image-2.png)  
+**Figure 3:** Top 5 Stock Codes by Quantity Sold  
 
-Figure 2  Pirce distribution by Different Stockcode
+### Top 10 Most Frequent Customers
+![Top 10 Customers](image-3.png)  
+**Figure 4:** Top 10 Most Frequent Customers  
 
-![alt text](image-2.png)
+### Frequency of Transactions
+![Transaction Frequency](image-4.png)  
+**Figure 5:** Frequency of Transactions  
 
+### Relationship Between Quantity and Price
+![Quantity vs Price](image-5.png)  
+**Figure 6:** Relationship Between Quantity and Price  
 
-Figure 3 Top 5 SockCode by its quantities
-
-![alt text](image-3.png)
-
-
-Figure 4 Top 10 Most Frequent Customers
-
-![alt text](image-4.png)
-
-
-Figure 5 Frequency Transactions
-
-
-![alt text](image-5.png)
-
-Figure 6 The relationship between Quantity and Price
