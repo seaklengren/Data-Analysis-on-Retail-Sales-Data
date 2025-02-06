@@ -73,9 +73,6 @@ The dataset used for this analysis is **Online Retail II**, which contains trans
 
 ### **Investigating the Relationship Between Quantity and Price** 
 
-df['Total Sales'] = df['Quantity'] * df['Price']
-df['Avg Sale per Transaction'] = df['Total Sales'] / df['Quantity']
-
 ---
 
 ## **7. Key Insights**  
@@ -85,11 +82,11 @@ df['Avg Sale per Transaction'] = df['Total Sales'] / df['Quantity']
 - **Most Popular Product:** StockCode **10002** had the highest quantity sold (See Figure 3).  
 - **Top Customers:** Customer **ID 14911** accounted for **18.8% of the top 10 customers**, followed by **ID 17841 (16.5%)** (See Figure 4).  
 - **Most Popular Price Points:** Products priced at **$1.25 and $0.85** were the most frequently purchased (See Figure 5).  
-- **No Clear Price-Quantity Relationship:** There is no strong correlation between **price and quantity** (See Figure 6).  
-
+- **No Clear Price-Quantity Relationship:** There is no strong correlation between **price and quantity** (See Figure 6).
+  
 ---
+
 ##**8.  Recommendations**
-## **8. Recommendations**  
 
 ### **1. Expand Marketing in High-Sales Countries**  
 - Focus marketing efforts on **Belgium, Channel Islands, Australia, Austria, and Cyprus** to increase market share and revenue.  
@@ -108,6 +105,7 @@ df['Avg Sale per Transaction'] = df['Total Sales'] / df['Quantity']
 - Although no strong correlation exists between price and quantity, experimenting with **discounts, bundling, or seasonal pricing strategies** may uncover hidden sales opportunities.  
 
 ---
+
 ## 9. Appendix**
 
 ### Sale Price Distribution Across Different Countries
