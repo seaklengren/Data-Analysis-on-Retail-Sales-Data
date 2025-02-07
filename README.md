@@ -106,7 +106,7 @@ The dataset used for this analysis is **Online Retail II**, which contains trans
 
 ---
 
-## 9. Appendix**
+## **9. Appendix**
 
 ### Sale Price Distribution Across Different Countries
 ![Sale Price Distribution](image.png)  
